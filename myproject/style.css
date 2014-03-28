@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body {
+	font-family: 'Old Standard TT', serif;
+	padding: 0px;
+	margin: 0px;	
+	background-color: #A6AF94;
+}
+.navigation {
+	position: fixed;
+	height: 60px;
+	top: 0;
+	list-style-type: none;
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	margin-top: -10px;
+	margin-left: -10px;
+	z-index: 5; 
+}
+.navigation a:hover {
+	color: #e6e6e6;
+}
+li {
+	display: inline;
+	font-size: 21pt;
+	padding: 0 30px 0 0;
+	width: fit-content;
+}
+#nameplate {
+	background: url('file:///C:/Users/Scott/scottritter/shennysnow.png') 70% 50% repeat fixed;
+	min-height:900%;
+}
+h1 {
+	font-size:100px;
+	color: #757575;
+	text-align: center;
+	line-height:400px;
+	margin-top: 50px;
+	padding-top:0px;
+}
+h2 {
+	font-size:25px;
+	color: black;
+	text-align:center;
+}	
+/*pick up again at div id icons*/
+
+#article {
+	width: 960px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #A4A4A4;
+}
+#section {
+	float: center;
+	width: 600px;
+	height: 500px;
+	background: none;
+}
+#menu {
+	margin: 15px; text-align:center;
+	background-color: clear;
+	color: white; padding: 10px;
+	display: block; 
+	text-decoration: none;
+	font-size: x-large;
+	/*--fix colors--*/
+	border: thin solid lightgray;
+	box-shadow: 4px 6px 3px lightgray;
+	-webkit-box-shadow: 4px 6px 3px lightgray;
+	-moz-box-shadow: 4px 6px 3px lightgray;
+}
+	
+	
+	
+

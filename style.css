@@ -1,0 +1,122 @@
+@charset "UTF-8";
+body {
+	font-family: 'Old Standard TT', serif;
+	padding: 0px;
+	margin: 0px;	
+	background-color: #A6AF94;
+}
+.navigation {
+	position: float;
+	height: 60px;
+	top: 0;
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+	margin-top: -10px;
+	margin-left: -10px;
+	
+	z-index: 5; 
+}
+.navigation a:hover {
+	color: #000;
+	}
+a:link {
+	color: #00733E;
+	text-decoration: none;
+}
+a:visited {
+	color: #00733E;
+}
+a:hover: {
+	color: #000;
+}
+li {
+	display: inline-block;
+	font-size: 30px;
+	padding: 0 30px 0 0;
+	width: fit-content;
+}
+/*full-screen background code borrowed from css-tricks.com*/
+#nameplate {
+	background: url('file:///C:/Users/Scott/scottritter/shennysnow.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; 
+}
+h1 {
+	font-size:100px;
+	color: #003300;
+	text-align: center;
+	line-height:500px;
+	margin-top: -150px;
+	margin-bottom:-100px;
+	}
+h2 {
+	font-size:25px;
+	color: #003300;
+	text-align:center;
+	margin-bottom:150px;
+	margin-top:-100px;
+}	
+
+#icons {
+	text-align:center;
+}
+.iconimage {
+	width: 40px;
+	height: 40px;
+	padding: 3px;
+}
+#article {
+	width: 960px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #A4A4A4;
+}
+#section {
+	float: center;
+	width: 600px;
+	height: 500px;
+	background: none;
+}
+#footer {
+	color: #003300;
+	height: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
+/*This starts resume*/
+
+.section-wrap {
+	margin-left: 400px;
+	margin-right: 400px;
+	text-align:center;
+}
+.section-wrap h3 {
+	font-size:30px;
+	line-height: 5px;
+	text-align:center;
+}
+.section-wrap h2 {
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+p {
+	font-size:18px;
+	line-height:25px;
+	text-align: center;
+}
+li {
+	font-size: 24px;
+	text-align: center;
+}
+
+
+
+	
+	
+	
+

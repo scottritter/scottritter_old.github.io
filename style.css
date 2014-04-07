@@ -38,7 +38,7 @@ li {
 }
 /*full-screen background code borrowed from css-tricks.com*/
 #nameplate {
-	background: url('file:///C:/Users/Scott/scottritter.github.io/images/shennysnow.png') no-repeat center center fixed; 
+	background: url('file:///C:/Users/Scott/scottritter.github.io/Images/shennysnow.png') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover; 

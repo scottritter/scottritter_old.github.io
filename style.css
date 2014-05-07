@@ -36,13 +36,20 @@ li {
 	padding: 0 30px 0 0;
 	width: fit-content;
 }
-/*full-screen background code borrowed from css-tricks.com*/
+/*full-screen background code borrowed from css-tricks.com
 #nameplate {
 	background: url('images/shennysnow.jpg') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}*/
+/*smaller background from Denise Lu follows:*/
+#nameplate {
+	background: url('images/shennysnow.jpg');
+	background-repeat:no-repeat;
+	min-height:800px;
+	background-position:center;
 }
 h1 {
 	font-size:100px;
@@ -114,6 +121,26 @@ li {
 	font-size: 24px;
 	text-align: center;
 }
+/*pages*/
+#photo-section-wrap {
+	width: 1000px;
+	margin-top: 60px;
+}
+div#slideshow ul#slideshow-nav li#prev {
+	float: left;
+	position: relative;
+	top: 230px;
+}
+div#slideshow ul#slideshow-nav li#next {
+	float: right;
+	position: relative;
+	top: 230px;
+}
+#slideshow {
+	width: 1000px;
+	margin: auto;
+}
+
 
 
 

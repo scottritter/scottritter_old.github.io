@@ -61,7 +61,7 @@ h1 {
 	}
 h2 {
 	font-size:25px;
-	color: #003300;
+	color: 0A0A09;
 	text-align:center;
 	margin-bottom:150px;
 	margin-top:-100px;
@@ -140,10 +140,23 @@ div#slideshow ul#slideshow-nav li#next {
 	width: 1000px;
 	margin: auto;
 }
-
-
-
-
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 480px) {
+h1 {
+	font-size: 40pt;
+}
+h2 {
+	font-size: 18pt;
+}
+}
+@media only screen and (max-width: 755px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+@media only screen and (min-width: 769px) {
+}
 	
 	
 	

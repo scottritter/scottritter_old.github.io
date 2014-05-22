@@ -6,7 +6,6 @@ body {
 	background-color: #A6AF94;
 }
 .navigation {
-	position: float;
 	height: 60px;
 	top: 0;
 	list-style-type: none;
@@ -64,7 +63,7 @@ h2 {
 	color: 0A0A09;
 	text-align:center;
 	margin-bottom:150px;
-	margin-top:-100px;
+	margin-top: -150px;
 }	
 
 #icons {
@@ -121,11 +120,10 @@ li {
 	font-size: 24px;
 	text-align: center;
 }
-/*pages*/
-#photo-section-wrap {
-	width: 1000px;
-	margin-top: 60px;
-}
+#pages-section-wrap {
+	width: 700px;
+	margin-top: 20px;
+	}
 div#slideshow ul#slideshow-nav li#prev {
 	float: left;
 	position: relative;
@@ -137,9 +135,11 @@ div#slideshow ul#slideshow-nav li#next {
 	top: 230px;
 }
 #slideshow {
-	width: 1000px;
+	width: 700px;
 	margin: auto;
 }
+
+
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 480px) {
 h1 {

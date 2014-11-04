@@ -38,7 +38,7 @@ li {
 }
 /*full-screen background code borrowed from css-tricks.com
 #nameplate {
-	background: url('images/tree.011114.jpg') no-repeat center center fixed; 
+	background: url('images/HomepageTree.jpg') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -46,7 +46,7 @@ li {
 }*/
 /*smaller background from Denise Lu follows:*/
 #nameplate {
-	background: url('images/tree.011114.jpg');
+	background: url('images/HomepageTree.jpg');
 	background-repeat:no-repeat;
 	min-height:800px;
 	background-position:center;

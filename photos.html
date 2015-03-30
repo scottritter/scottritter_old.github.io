@@ -1,8 +1,18 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang=eng>
 <head>
-		<meta charset="UTF-8">
-		<title>Scott Ritter Photos</title>
+		<meta charset="UTF-8" />
+		<title>The Tree</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="scripts/jquery.slides.min.js"></script>
+		<script>
+		$( document ).ready(function() {
+            $("#slides").slidesjs({
+        width: 200,
+        height: 200
+    }); 
+ });
+		</script> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
@@ -19,19 +29,20 @@
 			</ul>
 		</nav>
         
-<a href="http://www.arduinoday.tv">
-
-    <img border="0" alt="Arduino Day 2015" src="http://day.arduino.cc/assets/images/banners/ARDUINODAY15_banners_200x400.png" />
-
-</a>    
-		<!--Begins "pages" section-->
+    
+		<!--Begins "photos" section-->
 		<div id="photos-section-wrap" class="section-wrap">
 		<div id="photo intro"><p>See more at <a href="http://instagram.com/scottritter" target="_blank">Instagram</a>
 		
 		
 		<h2>This page is still being built</h2>
 		
-		<img src="images/tree.JPG">
-		</div>
-	</body>
-</html>
+		<div id="slides">
+    <img src="images/tree.010114.jpg" width= 200/>
+    <img src="images/tree.010514.jpg" width= 200/>
+    <img src="images/tree.021314.jpg" width= 200/>
+    </div>
+ </div>
+ 
+</body>
+   </html>

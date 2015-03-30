@@ -1,24 +1,41 @@
-<!DOCTYPE html>
-<html lang=eng>
+<!doctype html>
+<html>
 <head>
-		<meta charset="UTF-8" />
-		<title>The Tree</title>
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="scripts/jquery.slides.min.js"></script>
-		<script>
-		$( document ).ready(function() {
-            $("#slides").slidesjs({
-        width: 200,
-        height: 200
-    }); 
- });
-		</script> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-<link rel="stylesheet" type="text/css" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
-</head>
+  <meta charset="utf-8">
+  <title>The Tree</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel="stylesheet" type="text/css"/>
+	<style type="text/css"> 
+	div.slideshow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+p { text-align:center }
 
-<body> 
+/* give slideshow some style */
+#slideshow { margin: 20px auto; width: 300px; height: 300px }
+
+/* make sure each slide image is centered */
+#slideshow div img { margin: auto; display: block }
+</style>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+	<script> 
+	$( document ).ready(function() {
+        $('.slideshow').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+    
+	$('.slideshow').cycle({ 
+    fx:    'fade', 
+    speed:  500 
+	});
+});
+</script>
+</head> 
+	<body>
 	<div id="wrapper">	
 		<nav class="navigation">
 			<ul id="menu">
@@ -33,16 +50,17 @@
 		<!--Begins "photos" section-->
 		<div id="photos-section-wrap" class="section-wrap">
 		<div id="photo intro"><p>See more at <a href="http://instagram.com/scottritter" target="_blank">Instagram</a>
+	<div class="slideshow">
+		<img src="images/tree.010114.jpg" width="500" />
+        <img src="images/tree.010514.jpg" width="500" />
+        <img src="images/tree.021314.jpg" width="500" />
 		
-		
-		<h2>This page is still being built</h2>
-		
-		<div id="slides">
-    <img src="images/tree.010114.jpg" width= 200/>
-    <img src="images/tree.010514.jpg" width= 200/>
-    <img src="images/tree.021314.jpg" width= 200/>
-    </div>
- </div>
- 
-</body>
-   </html>
+	</div>
+	<div id="footer">
+	&copy; 2015 Scott Ritter
+	</div>
+	</body>
+	
+	</script>
+</html>
+

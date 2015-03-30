@@ -67,6 +67,7 @@ h2 {
 	margin-top: -150px;
 }	
 
+
 /*for SlidesJS:
 #slides {
 	display: none;
@@ -172,6 +173,8 @@ li {
 	width: 700px;
 	margin-top: 20px;
 	}
+	
+	/*
 div#slideshow ul#slideshow-nav li#prev {
 	float: left;
 	position: relative;

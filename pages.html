@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang=eng>
 <head>
-		<meta charset="UTF-8" />
-		<title>Scott Ritter Pages</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-<link rel="stylesheet" type="text/css" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
-</head>
+	<meta charset="UTF-8" />
+	<title>Scott Ritter Pages</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
+	<style type="text/css"> 
+		div.slideshow {
+		display: block;
+		margin-left: auto;
+		margin-right: auto }
+	p { text-align:center }
 
+	/* give slideshow some style */
+	.slideshow { margin: 20px auto; width: 300px }
+
+	/* make sure each slide image is centered */
+	#slideshow div img { margin: auto; display: block }
+	</style>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+	<script> 
+	$( document ).ready(function() {
+	$('.slideshow').cycle({ 
+    fx:     'fade', 
+    speed:   300, 
+    timeout: 3000, 
+    next:   '.slideshow', 
+    pause:   1 	
+	});
+})
+	/*$('.slideshow').cycle({ 
+    fx: 'zoom', 
+    sync:  false, 
+    delay: -2000,
+	});
+	$('.slideshow').cycle({timeout:2000});
+	})
+	$('#pauseButton').click(function() { 
+    $('.slideshow').cycle('pause'); 
+	$('#resumeButton').click(function() { 
+    $('.slideshow').cycle('resume')
+	});
+})*/
+</script>
+</head>
 <body> 
 	<div id="wrapper">	
 		<nav class="navigation">
@@ -22,25 +61,20 @@
     
 		<!--Begins "pages" section change-->
 		<div id="pages-section-wrap" class="section-wrap">
-		
-		<!-- old
-		<div id="slideshow">
-			<ul id="slideshow-nav">
-					<li id="prev"><a href="#"><img src="imageprev.png"/></a></li>
-					<li id="next"><a href="#"><img src="imagenext.png"/></a></li>
-				</ul>
-		-->	
-		<h2>This page is still being built</h2>	
-				<ul id="slides">
-					<li><img src="pages/Day.MAIN.021114.png"/></li>
-					<!--three more pages 
-					<li><img src="pages/Day.MAIN.021914.png"/></l>
-					<li><img src="pages/Day.MAIN.030914.png"/></l>
-					<li><img src="pages/Day.MAIN.031514.png"/></l> -->
-				</ul>
+		<div id="photo intro"><p>Hover over page to pause</a>
+				<div class="slideshow">
+					<img src="pages/Day.MAIN.021114.png" width="300" />
+					<img src="pages/Day.MAIN.021914.png" width ="300" />
+					<img src="pages/Day.MAIN.030914.png" width="300" />
+					<img src="pages/Day.MAIN.031514.png" width="300" />
+					<img src="pages/Day.MAIN.121214.png" width="300" />
 		</div>
-		</div>
-     
+     <div id="footer">
+	&copy; 2015 Scott Ritter
+	</div>
+	</body>
+	
+	</script>
 		
 	</div>
 </body>

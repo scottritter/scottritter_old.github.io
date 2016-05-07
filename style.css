@@ -2,12 +2,12 @@
 body {
 	font-family: 'Old Standard TT', serif;
 	padding: 0px;
-	margin-top: 30px;	
+	margin-top: 30px;
 	background-color: #A6AF94;
 }
 img, embed, object, video {
 	max-width: 100%;
-}	
+}
 .navigation {
 	height: 60px;
 	top: 0;
@@ -34,7 +34,7 @@ li {
 }
 /*full-screen background code borrowed from css-tricks.com
 #nameplate {
-	background: url('images/HomepageTree.jpg') no-repeat center center fixed; 
+	background: url('images/HomepageTree.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -61,7 +61,7 @@ h2 {
 	text-align: center;
 	margin-bottom: 150px;
 	margin-top: -150px;
-	
+
 }
 #icons {
 	text-align:center;
@@ -79,7 +79,7 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #A4A4A4;
-	
+
 }*/
 /*
 #section {
@@ -93,7 +93,8 @@ h2 {
 	color: #003300;
 	font-size: 16px;
 	text-align: center;
-	margin-top: -60px;
+	margin-top: -20px;
+	margin-bottom: 5px;
 }
 
 
@@ -151,9 +152,5 @@ li {
 	#home-description {
 		width: 100%;
 }
-	
+
 }
-	
-
-
-
